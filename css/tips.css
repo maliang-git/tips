@@ -1,0 +1,101 @@
+@font-face {font-family: "iconfont";
+    src: url('../font/iconfont.eot?t=1564049558707'); /* IE9 */
+    src: url('../font/iconfont.eot?t=1564049558707#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANQAAsAAAAAB7AAAAMCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDDAqDAIMFATYCJAMQCwoABCAFhG0HQxviBsg+QhxjOyJpRaoWQYc9Mw9zut3SzpsV7xe5gWNjNz8VD/Vr5ev/e+YQ1N4pQHkSsDyHHbGQsVEbFSE3RsbFpXw8kBEzcM5VkLaWbkCN9QzASvzs1US3ogA6WO03935goWER6pMcsirqg9yV05emA2Vn1wAJMl+T74M5AQJgWsCytR5swIFGlPHCg9hKN0CAmfkOeCDxkRiKoHqyiN6PIFhXm5ihAHP/uHf6R50HNp99y2XMZXtg96nrfGIXUNf53tgmm+ABcQ/ZBCuZ2TjrkYcJjFrGAM+0z2iwkGhUIF4lvRosWgY5kx2GhXZkYYqPGsPlQxn9/PXx3xqmaCqaeL4nO7g9/aq+73iQIoT72WAso2IHIIk7o45L4zK0AzbqhSbWALfVK/gl3flFqUnc6h+vqESLMsfBLsrrSxLGBMEvJij8kgwVfojhw5jACwNfFWqvQ0rN+Hgb42SLHEl6Pryd3d+vq5cpeE0uSoHtCjVKbuJ0KtmNyyS6TqfnXkXfqxu6Z+vxprOLXEuhPAVklJDP+8doMIAI3XKQFNRxVcN+H0Taq0Ffgt/11ejbKv53/P/AytTRx/MetVb81sTGCmkcdx+sl9DOmiBAGXvtGM7gHWpc1/mc/yIQ/Oju3XsxluB7Tj6BIfHDwwqG8M8SMovSF5Mx05XEgmBaWoOCglHhpUOeWc89VAvsAGG4JTSgGLIE1bAVNKk70BizC61hhzBqm758zJySscgRbKkBhGknKCZ9gWraGU3qAxqL3tCarsKoW81tOGat59RpCZWgBf0LuaHGRWZZFdkB+r5S3BTn9AS5y71w5IRu9AUb5D2mdF/+JOLAMdXwDMdhVRG0TAUa2WUi7fmej409aGeoHqycYkgRyAKeXyDJIA2X1her3vMDyOtVFJ4h9TgTiHXy1oGIIzDQF0XDIr2VU8q+eCcVwgExjNSABv1QpUJAYbxfARliJyERaJ3jRakYV7E7X1V/w00wiu6QUaJGRqN9VM099bOnVdXofP4i2XivaDAAAAA=') format('woff2'),
+    url('../font/iconfont.woff?t=1564049558707') format('woff'),
+    url('../font/iconfont.ttf?t=1564049558707') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('../font/iconfont.svg?t=1564049558707#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-finish:before {
+    content: "\e607";
+  }
+  
+  .icon-error:before {
+    content: "\e608";
+  }
+  
+  .icon-warn:before {
+    content: "\e609";
+  }
+  
+  
+/* 
+.icon-finish:before {  
+    content: "\e607";
+  }
+
+  .icon-error:before {
+    content: "\e608";
+  }
+  
+
+  .icon-warn:before {
+    content: "\e609";
+  }
+   */
+
+
+
+/* 
+提示信息 */
+.tips-info-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 2px;
+    padding: 8px 15px;
+    z-index: 99999;
+    max-width: 400px;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    line-height: 22px;
+    text-align: center;
+}
+.tips-info-text>p{
+    color: #fff;
+    font-size: 14px;
+    display: inline;
+}
+.tips-info-text>i{
+    position: absolute;
+    left: 10px;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 0px 8px 8px;
+    border-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.tips-info-text>span{
+    position: absolute;
+    left: 10px;
+    top: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 0px 8px 8px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0);
+}
+
+.tips-info-text>b{
+    vertical-align: middle;
+    margin-right: 6px;
+    font-size: 26px;
+    color: #ff2525;
+    font-weight: 500;
+}
+
+.icon-finish{
+    color:#20b759!important;
+}
